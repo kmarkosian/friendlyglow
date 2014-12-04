@@ -1,5 +1,6 @@
 body {
 	background-color: #ffffff;
+	font-family: 'Cabin', sans-serif;
 }
 
 img {
@@ -15,27 +16,39 @@ img {
 	background-size:  100%;
 }
 
+.indoorsbg {
+	background: url(../images/Glow-03.jpg) no-repeat top left;
+	background-size: 100%;
+}
+
+.lowbg {
+	background: url(../images/Glow-04.jpg) no-repeat top left;
+	background-size: 100%;
+}
+
 .container {
 	width: 960px;
 	height: 1000px;
-	background-color: #ffffff;
+	background-color: white;
 	margin: 0 auto;
 }
 .header {
 	width: 750px;
-	height: 150px;
+	height: 50px;
 	background-color: #ffffff;
-	margin: 0 auto;
+	margin: left;
 
 }
 
 .about {
 	width: 250px;
-	height: 50px;
-	background-color: #479dff;
-	margin: 0 auto;
-	text-align: center;
+	height: 175px;
+	background-color: #ffffff;
+	margin: left;
+	text-align: left;
+
 }
+
 
 .image {
 	width: 100%;
@@ -108,12 +121,23 @@ img {
 	box-shadow: 3px 3px 3px #d6d0ff;
 }
 
-h1 {
-	font-family: sans-serif;
+.explain {
+	width: 500px;
+	height: 400px;
+	background-color: white;
+	text-align: left;
+	float: center;
+
 }
 
-h2 { 
-	font-family: sans-serif;
+h1 {
+	font-weight: 700;
+	font-size: 48px;
+
+}
+
+h2 { font-size: 15px;
+	
 	}
 
 h3 {
@@ -123,8 +147,8 @@ h3 {
 
 /* unvisited link */
 a:link, a:visited {
-    color: green;
     text-decoration: none;
+    color:black;
 }
 
 /* mouse over link */
