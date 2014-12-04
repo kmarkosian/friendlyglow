@@ -127,12 +127,14 @@ img {
 	background-color: white;
 	text-align: left;
 	float: center;
+	margin: 0 auto;
 
 }
 
 h1 {
 	font-weight: 700;
 	font-size: 48px;
+	
 
 }
 
