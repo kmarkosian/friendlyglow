@@ -7,22 +7,27 @@ img {
 	max-width: 100%;
 }
 .darkbg {
-	background: url(../images/Glow-01.jpg) no-repeat top left;
+	background: url(../images/boreal.jpg) no-repeat top left;
 	background-size: 100%;
 }
 
 .brightbg {
-	background: url(../images/Glow-02.jpg) no-repeat top left;
+	background: url(../images/sundial.jpg) no-repeat top left;
 	background-size:  100%;
 }
 
 .indoorsbg {
-	background: url(../images/Glow-03.jpg) no-repeat top left;
+	background: url(../images/honey.jpg) no-repeat top left;
 	background-size: 100%;
 }
 
 .lowbg {
-	background: url(../images/Glow-04.jpg) no-repeat top left;
+	background: url(../images/opalescent.jpg) no-repeat top left;
+	background-size: 100%;
+}
+
+.midbg {
+	background: url(../images/blush.jpg) no-repeat top left;
 	background-size: 100%;
 }
 
@@ -134,7 +139,7 @@ img {
 h1 {
 	font-weight: 700;
 	font-size: 48px;
-	
+
 
 }
 
